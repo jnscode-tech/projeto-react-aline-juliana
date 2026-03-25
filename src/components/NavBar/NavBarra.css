@@ -1,0 +1,34 @@
+
+  .menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #1e1e1e;
+  padding: 10px 20px;
+  
+  }  
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo img {
+  height: 50px;
+}
+  .menu  ul{
+     display: flex;
+    list-style: none;
+    gap: 30px; /* espaço entre os itens */
+  }
+  .menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    transition: 0.3s;
+  }
+  
+  .menu a:hover {
+    color: #ff4d88;
+  
+  }
