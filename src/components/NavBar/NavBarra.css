@@ -1,34 +1,51 @@
-
-  .menu {
+.menu {
+  width: 100%;
+  background: #333;
+  padding: 0 20px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  background: #1e1e1e;
-  padding: 10px 20px;
-  
-  }  
+  align-items: center; /* 🔥 centraliza verticalmente */
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  height: 70px; /* 🔥 define altura da navbar */
+}
+
 .logo {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 20px;
+  margin: 0;
 }
 
 .logo img {
   height: 50px;
 }
-  .menu  ul{
-     display: flex;
-    list-style: none;
-    gap: 30px; /* espaço entre os itens */
-  }
-  .menu a {
-    text-decoration: none;
-    color: white;
-    font-size: 25px;
-    transition: 0.3s;
-  }
-  
-  .menu a:hover {
-    color: #ff4d88;
-  
-  }
+
+.menu ul {
+  display: flex;
+  align-items: center; /* 🔥 garante alinhamento vertical */
+  list-style: none;
+  gap: 30px;
+  margin: 0;
+  padding: 0; /* 🔥 remove espaçamento padrão */
+}
+
+.menu a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  transition: color 0.2s ease;
+  padding: 0; /* 🔥 remove padding que desalinava */
+  margin: 0;
+}
+
+.menu li{
+  display: flex;
+  align-items: center;
+  height: 70px;
+}
+
+.menu a:hover {
+  color: #d156a5;
+}

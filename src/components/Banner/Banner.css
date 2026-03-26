@@ -1,54 +1,16 @@
 .banner {
   width: 100%;
-  height: 250px;
+  height: 350px;
   overflow: hidden;
+  padding-bottom: 65px;
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;  
+  margin: 0 auto;
 }
 
 .banner img {
   width: 100%;
-  height: 100%;
+  height: auto;
   object-fit: cover;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .banner img {
-  width: 100%;
-  height: auto;
-  display: block;
-} */
-/* .banner {
-  width: 100%;
-  margin: 0;
-  padding: 0;
-
-} */
-/* .banner img{
-  width: 100%;
-  max-height: 300px; -ajuste aqui (250–400px) 
-  object-fit: cover; 
-  */
-
-  /* width: 100%;
-  height: auto;
-  display: block; - remove espacinho embaixo da imagem 
-}
-
-/* .banner-text {
-  position: absolute;
-  top: 50%;
-  left: 10%;
-  transform: translateY(-50%);
-  color: white;
-} */
