@@ -1,6 +1,6 @@
-import "./Principal.css";
+import "./Home.css";
 
-const Principal = () => {
+const Home = () => {
   return (
     <main className="container">
       
@@ -93,4 +93,4 @@ const Principal = () => {
   );
 };
 
-export default Principal;
+export default Home;

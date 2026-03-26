@@ -4,6 +4,8 @@ import './NavBarra.css'
 const NavBarra = () => {
 
     return (
+
+
         <header className="header">
 
             <nav class="menu">

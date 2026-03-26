@@ -1,6 +1,6 @@
 import './App.css'
 import NavBarra from './components/NavBar/NavBarra.jsx'
-import Principal from './components/Main/Principal.jsx'
+import Home from './components/Home/Home.jsx'
 import Rodape from './components/Footer/Rodape.jsx'
 import Banner from './components/Banner/Banner.jsx'
 
@@ -13,8 +13,7 @@ function App() {
 
     <NavBarra/>
     <Banner/>
-  
-    <Principal/>
+    <Home/>
     <Rodape/>
   
     </div>
